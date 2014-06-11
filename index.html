@@ -1,79 +1,259 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Normal Search</title>
+  <link rel="stylesheet" type="text/css" href="reset.css" /> 
+  <link rel="stylesheet" type="text/css" href="text.css" /> 
+  <link rel="stylesheet" type="text/css" href="960.css" /> 
+  <link rel="stylesheet" type="text/css" href="Normal_Search.css" /> 
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <!-- jQuery -->
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Test : " />
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <!-- tmp css -->
+  <link rel="stylesheet" type="text/css" href="css/tmp.css">
+  <!--script type="text/javascript">
+    function MM_findObj(n, d) { //v4.01
+      var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+        d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+        if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+        for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+          if(!x && d.getElementById) x=d.getElementById(n); return x;
+      }
+    function MM_swapImgRestore() { //v3.0
+      var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+    }
+    function MM_preloadImages() { //v3.0
+      var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+        var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+        if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+      }
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    function MM_swapImage() { //v3.0
+      var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+      if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+    }
+  </script-->
+</head>
+<body class="container_12">
+  <nav id="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container_12">
+	<div id="nav_item">
+	  <span><a href="">首頁</a></span>&nbsp;&nbsp;&nbsp;&nbsp;
+	  <span id="present"><a href="">一般搜尋</a> </span>&nbsp;&nbsp;&nbsp;&nbsp;
+	  <span><a href="">地圖搜尋</a> </span>
+	</div>
+	  
+	  <div id="logo"> <a href=""> <img src="https://db.tt/MiJVRKZE" width=250></a>
+      </div>	
+      </div>
+  </nav>
+ 
+<article> 
+<div id="wrapper" class="container_12">
 
-    <title>Test</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/AlexWuNCCU/test">View on GitHub</a>
-
-          <h1 id="project_title">Test</h1>
-          <h2 id="project_tagline"></h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/AlexWuNCCU/test/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/AlexWuNCCU/test/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+  <section id="section_1" class="container_12">
+    <div class="grid_4">
+      <ul>
+        <li><a href="#">手機</a></li>
+        <ul>
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">HTC</a></li>
+          <li><a href="#">Sony</a></li>
+          <li><a href="#">Nokia</a></li>
+        </ul>
+      </ul>
     </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+    <div class="grid_4">
+      <ul>
+        <li><a href="#">證件</a></li>
+        <ul>
+          <li><a href="#">身分證</a></li>
+          <li><a href="#">健保卡</a></li>
+          <li><a href="#">護照</a></li>
+          <li><a href="#">學生證</a></li>
+        </ul>
+      </ul>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Test maintained by <a href="https://github.com/AlexWuNCCU">AlexWuNCCU</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="grid_4">
+      <ul>
+        <li><a href="#">包包</a></li>
+        <ul>
+          <li><a href="#">卡片夾</a></li>
+          <li><a href="#">零錢包</a></li>
+          <li><a href="#">後背包</a></li>
+          <li><a href="#">手提包</a></li>
+          <li><a href="#">側背包</a></li>
+        </ul>
+      </ul>
     </div>
+  </section>
+  
+  <div class="grid_12"></div>
 
+  
+  <section id="section_2" class="container_12">
+
+    <div class="grid_4">
+      <label for="triggerWords">失物關鍵字:</label>
+      <input type="text" class="searchInput" name="x" size="25" maxlength="120" />
+    </div>
+    <div class="grid_4">
+      <label for="lostTime">遺失時間 :</label>
+      <input type="date" class="searchInput" name="x" size="25" maxlength="120" />
+    </div>
+    <div class="grid_4">
+      <label for="lostPosition"> 遺失地點:</label>
+      <input type="text" class="searchInput" name="x" size="25" maxlength="120" />
+    </div>
+  </section>
+ 
+  <div class="grid_12"></div>
+  <div class="clear"></div>
+  
+  <section>
+    <div align="center">
+      <input type="submit" value="搜尋" type="button" id="button">
+    </div>
+	
+  </section>
+  
+   <div class="grid_12"></div>
+  
+<div class="clear"></div>
+<section>
     
+      <table align="center" class="table" cellspacing="5" cellpadding="6">
+        <tr id="title_table" align="center" valign="middle" >
+          <td>編號</a></td>
+          <td>日期</a></td>
+          <td>地點</a></td>
+          <td>物品名稱</a></td>
+          <td>物品描述</a></td>
+          <td>保管地點</a></td>
+        </tr>
+        <tr align="center" valign="middle">
+          <td>00000001</td>
+          <td>2014/01/01</td>
+          <td>台北市政治大學校門口</td>
+          <td><a href="lostitem.html" target="_blank">手機</a></td>
+          <td>iPhone5s 黑色</td>
+          <td><a data-toggle="modal" data-target="#myModal">文山一分局</a></td>
+        </tr>
+        <tr align="center" valign="middle">
+          <td>00000002</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle">
+          <td>00000003</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle">
+          <td>00000004</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle">
+          <td>00000005</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle">
+          <td>00000006</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle">
+          <td>00000007</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle">
+          <td>00000008</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle">
+          <td>00000009</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr align="center" valign="middle">
+          <td>00000010</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </section>
+  
+<section class="container_12">
+    <div class="grid_12  push_1" align="center">
+      <ul class="pagination">
+        <li><a href="#">&laquo;</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">&raquo;</a></li>
+      </ul>
+    </div>
+  </section>
+  
+ </div>
+</article>   
+  
+  <footer>
+    <div class="container_12">
+        <p>National Chengchi University</p>
+        <p>Web Programming Project</p>
+      </div>
+    </div>    
+  </footer>
 
-  </body>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <iframe src="pd.html" style="width:100%;height:550px;margin:5px auto;border:0px;"></iframe>
+      </div>
+    </div>
+  </div>
+
+</body>
 </html>
